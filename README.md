@@ -1,14 +1,14 @@
 # stock-server-mcp
 
-[\![Release](https://github.com/day0ops/stock-server-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/day0ops/stock-server-mcp/actions/workflows/release.yml)
-[\![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[\![Image](https://img.shields.io/badge/registry-GAR-4285F4?logo=google-cloud)](https://console.cloud.google.com/artifacts/docker/field-engineering-apac/australia-southeast1/kasunt)
+[![Release](https://github.com/day0ops/stock-server-mcp/actions/workflows/release.yml/badge.svg)](https://github.com/day0ops/stock-server-mcp/actions/workflows/release.yml)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Image](https://img.shields.io/badge/registry-GAR-4285F4?logo=googlecloud)](https://console.cloud.google.com/artifacts/docker/field-engineering-apac/australia-southeast1/kasunt)
 
-MCP server providing real-time stock price data via [Yahoo Finance](https://finance.yahoo.com), built with [FastMCP](https://github.com/jlowin/fastmcp).
+MCP server providing live stock price data, built with [FastMCP](https://github.com/jlowin/fastmcp).
 
 ## What it does
 
-Exposes stock price lookup tools over the Model Context Protocol (MCP), allowing LLM agents to fetch live market data by ticker symbol.
+Exposes stock price lookup tools over the Model Context Protocol (MCP), allowing LLM agents to fetch real-time stock quotes by ticker symbol.
 
 ## Usage
 
